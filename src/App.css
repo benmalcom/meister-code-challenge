@@ -1,0 +1,70 @@
+.challenge {
+  width: 500px;
+  margin: 100px auto;
+  border: 1px solid #DDDDDD;
+  padding: 20px;
+  background-color:  #F7F7F7;
+}
+
+.challenge-create-person-button,
+.challenge-person-save-name-button {
+  padding: 7px 10px;
+  opacity: 0.9;
+  border-color: transparent;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 1px #555;
+}
+
+.challenge-create-person-button:hover,
+.challenge-person-save-name-button:hover{
+  opacity: 1;
+}
+
+.challenge-create-person-button:focus,
+.challenge-person-save-name-button:focus{
+  outline: 0;
+}
+
+.challenge-create-person-button {
+  background-color: #000000;
+  color: #DDDDDD;
+  font-size: 14px;
+}
+
+.challenge-persons {
+  margin-top: 30px;
+}
+
+.challenge-person {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color:  #FFFFFF;
+  padding: 10px;
+  border: 1px solid #DDDDDD;
+}
+.challenge-person-empty{
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.challenge-person-id {
+  width: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.challenge-person-name {
+  padding: 7px 10px;
+  margin-right: 7px;
+  box-shadow: 0 0 1px #222222;
+  border-color: transparent;
+}
+.challenge-person-name:focus{
+  outline: none;
+}
+
+.challenge-person-save-name-button {}
